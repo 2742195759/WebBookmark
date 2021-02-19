@@ -1,0 +1,19 @@
+<html>
+<body>
+<h> SSS </h>
+{%- assign my_variable = 3 | modulo: 2 -%}
+{%- assign my_variable = my_variable | plus: 1 -%}
+{{ my_variable }}
+{%- if site.webitem.size > 0 -%}
+<ul>
+  {%- for webitem in site.webitem -%}
+  <li>
+    <a class="post-link" href="{{ webitem.webhref }}">
+        {{ webitem.webname | escape }}
+    </a>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
+</body>
+</html>
