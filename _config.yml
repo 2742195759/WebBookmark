@@ -21,7 +21,7 @@
 title: Blog of Xiong Kun
 email: xk18@mails.tsinghua.edu.cn
 description: This is the blog page of xiongkun
-baseurl: "/xkblog/" # the subpath of your site, e.g. /blog
+baseurl: "/WebBookmark/" # the subpath of your site, e.g. /blog
 url: "http://2742195759.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: 2742195759
 highlighter: rouge
